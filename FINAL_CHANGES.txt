@@ -1,0 +1,54 @@
+﻿=================================================
+FINAL UPDATES - ANIMATION SPEED & DOCUMENTATION
+=================================================
+
+CHANGES COMPLETED:
+------------------
+
+1. ✅ ANIMATION SPEED CONTROL
+   • Default speed: SLOW (0.005f) - smooth and reasonable
+   • Fast mode: 0.03f (6x faster)
+   • Press 'F' key to toggle between SLOW ⟷ FAST
+   • Speed indicator shows current mode on screen
+   • Only works when animation is running
+
+2. ✅ README.MD ENHANCED
+   • Added "Runtime Requirements" section
+   • Clearly lists required files:
+     - ComputerGraphics.exe
+     - freeglut.dll (REQUIRED!)
+     - cities.json (REQUIRED!)
+   • Shows directory structure
+   • Updated controls table with F key
+   • Warning about freeglut.dll dependency
+
+3. ✅ USER INTERFACE UPDATES
+   • Bottom instructions now show: "F: Fast"
+   • When animating, shows: "(SLOW)" or "(FAST)"
+   • Console output confirms speed changes
+
+ANIMATION BEHAVIOR:
+-------------------
+• Salesman starts in SLOW mode (smooth travel)
+• Press 'A' to start animation on final tour
+• Press 'F' to toggle SLOW ⟷ FAST
+• Press 'A' again to stop
+
+SPEED COMPARISON:
+-----------------
+SLOW:  0.005f per frame → ~200 frames per edge → smooth & watchable
+FAST:  0.030f per frame → ~33 frames per edge  → 6x faster
+
+NOW YOU CAN:
+------------
+1. Open Command Prompt
+2. cd "D:\Programs\Computer Graphics"
+3. build.bat
+4. ComputerGraphics.exe
+5. Press 'S' to solve
+6. Press 'N' to reach final tour
+7. Press 'A' to start animation (SLOW by default)
+8. Press 'F' to speed up! ⚡
+
+The README now clearly documents what files are needed
+to run the executable independently!

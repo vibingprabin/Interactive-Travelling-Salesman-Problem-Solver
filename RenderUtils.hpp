@@ -1,3 +1,11 @@
-#pragma once
+﻿#ifndef RENDERUTILS_HPP
+#define RENDERUTILS_HPP
+
 #include <string>
-void drawText(float x, float y, const char* str, float r=1, float g=1, float b=1);
+
+namespace RenderUtils {
+    void drawText(float x, float y, const std::string& text);
+    void drawText(float x, float y, const char* text);
+}
+
+#endif

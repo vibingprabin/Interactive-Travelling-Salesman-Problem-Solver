@@ -1,4 +1,13 @@
-#pragma once
-#include <vector>
+﻿#ifndef MATRIXPANEL_HPP
+#define MATRIXPANEL_HPP
+
+#include "City.hpp"
 #include "TSPAlgorithm.hpp"
-void renderMatrixAndAssignment(const std::vector<std::vector<float>>& distMatrix, const std::vector<Step>& steps, int step_index);
+#include <vector>
+
+class MatrixPanel {
+public:
+    static void draw(const std::vector<City>& cities, const TSPStep& step);
+};
+
+#endif // MATRIXPANEL_HPP

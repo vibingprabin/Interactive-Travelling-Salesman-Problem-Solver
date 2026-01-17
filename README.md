@@ -4,7 +4,28 @@ An interactive visualization of the Traveling Salesman Problem (TSP) solver usin
 
 ## Demo
 
-<video src="Demo_compressed.mp4" controls width="800"></video>
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="demo_clips/setup.gif" width="250" alt="Setup Phase">
+      <br>
+      <b>Setup Phase</b>
+    </td>
+    <td align="center">
+      <img src="demo_clips/execution.gif" width="250" alt="Execution">
+      <br>
+      <b>Algorithm Execution</b>
+    </td>
+    <td align="center">
+      <img src="demo_clips/speed_test.gif" width="250" alt="Speed Test">
+      <br>
+      <b>Speed Test</b>
+    </td>
+  </tr>
+</table>
+
+Full video available: [Demo.mp4](Demo_compressed.mp4)
 
 **Features:**
 - Interactive city placement via mouse clicks

@@ -4,7 +4,7 @@ An interactive visualization of the Traveling Salesman Problem (TSP) solver usin
 
 ## Demo
 
-<video src="Demo.mp4" controls width="800"></video>
+<video src="Demo_compressed.mp4" controls width="800"></video>
 
 **Features:**
 - Interactive city placement via mouse clicks

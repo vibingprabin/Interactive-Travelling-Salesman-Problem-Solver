@@ -20,7 +20,7 @@ An interactive visualization of the Traveling Salesman Problem (TSP) solver usin
     <td align="center">
       <img src="demo_clips/speed_test.gif" width="250" alt="Speed Test">
       <br>
-      <b>Speed Test</b>
+      <b>Custom Cities Entry</b>
     </td>
   </tr>
 </table>

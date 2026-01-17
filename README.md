@@ -65,6 +65,28 @@ build.bat
 
 This compiles all source files and links with FreeGLUT and OpenGL libraries.
 
+### macOS Build Instructions
+
+1. **Install Dependencies** (using [Homebrew](https://brew.sh/)):
+   ```bash
+   brew install freeglut
+   ```
+
+2. **Compile**:
+   ```bash
+   clang++ -std=c++17 -o ComputerGraphics \
+     ComputerGraphics.cpp City.cpp TSPAlgorithm.cpp MatrixPanel.cpp RenderUtils.cpp munkres-cpp/src/munkres.cpp \
+     -I. -Imunkres-cpp/src \
+     -L/opt/homebrew/lib -L/usr/local/lib \
+     -I/opt/homebrew/include -I/usr/local/include \
+     -lfreeglut -framework OpenGL
+   ```
+
+3. **Run**:
+   ```bash
+   ./ComputerGraphics
+   ```
+
 ## Runtime Requirements
 
 To run the compiled executable, ensure these files are in the same directory as ComputerGraphics.exe:
